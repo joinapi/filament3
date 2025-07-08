@@ -1,12 +1,4 @@
-# Larament
-
-[![Pint](https://github.com/codewithdennis/larament/actions/workflows/pint.yml/badge.svg)](https://packagist.org/packages/codewithdennis/larament)
-[![PEST](https://github.com/codewithdennis/larament/actions/workflows/pest.yml/badge.svg)](https://packagist.org/packages/codewithdennis/larament)
-[![PHPStan](https://github.com/CodeWithDennis/larament/actions/workflows/phpstan.yml/badge.svg)](https://github.com/CodeWithDennis/larament/actions/workflows/phpstan.yml)
-[![Total Installs](https://img.shields.io/packagist/dt/codewithdennis/larament.svg?style=flat-square)](https://packagist.org/packages/codewithdennis/larament)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codewithdennis/larament.svg?style=flat-square)](https://packagist.org/packages/codewithdennis/larament)
-
-![Larament](https://raw.githubusercontent.com/CodeWithDennis/larament/3.x/resources/images/larament.png)
+# Larament / Filament 3
 
 **Larament** is a time-saving starter kit to quickly launch Laravel projects. It includes **FilamentPHP** pre-installed and configured, along with additional tools and features to streamline your development workflow.
 
@@ -64,8 +56,8 @@
 A default user is seeded with the following credentials, pre-filled on the login page for quick access:
 
 ```dotenv
-DEFAULT_USER_NAME="John Doe"
-DEFAULT_USER_EMAIL="admin@example.com"
+DEFAULT_USER_NAME="ADMIN"
+DEFAULT_USER_EMAIL="admin@joinapi.io"
 DEFAULT_USER_PASSWORD="password"
 ```
 
@@ -99,14 +91,14 @@ php artisan db:seed
 Alternatively, you can use the following command to create a new project with Larament:
 
 ```bash
-composer create-project --prefer-dist CodeWithDennis/larament example-app
+composer create-project --prefer-dist joinapi/filament3 example-app
 ```
 
 ### Create a Terminal Alias
 For easier usage in future projects, create an alias in your terminal:
 
 ```bash
-alias larament="composer create-project --prefer-dist CodeWithDennis/larament"
+alias larament="composer create-project --prefer-dist joinapi/filament3"
 ```
 
 Now, you can create a new project with a simple command:
